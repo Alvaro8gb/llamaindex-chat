@@ -16,7 +16,20 @@ The OpenAI API incurs costs, and public websites that utilize it might exceed th
 You can provide the OPENAI_KEY via ".streamlit/secrets.toml"
  or entering as a `st.text_input`
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lllamaindex-chat-with-docs.streamlit.app/)
+
+## How to run it?
+
+```
+pipenv shell
+streamlit run streamlit_app.py
+```
+or
+
+```
+pip install requirements.txt
+streamlit run streamlit_app.py
+```
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llamaindex-chat.streamlit.app/)
 
 ## Get an OpenAI API key
 
