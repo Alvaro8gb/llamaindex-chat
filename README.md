@@ -3,6 +3,7 @@ web to learn LLamaIndex:
     [Llama Index](https://gpt-index.readthedocs.io/en/latest/)
 ## Overview of the App
 
+The OpenAI API incurs costs, and public websites that utilize it might exceed this limit. With this app, you can easily enter your personal API key and use it without web interruptions. Additionally, the main advantage is that you can choose the specific topic you want to inquire about—all you need is to have this information in text files, and you're good to go :)
 <img src="app.png" width="75%">
 
 - Use `st.slider` to select the temperature of the LLM
